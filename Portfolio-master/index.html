@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<title>Salaheddine | Portfolio</title>
+<script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-167138460-1');</script>
+<link rel="shortcut icon" type=image/x-icon href=Assets/logo2.png>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167138460-1"></script>
+<link rel=stylesheet media=screen href=css/style.css>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&family=Lora&family=Montserrat&display=swap" rel=stylesheet>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css>
+<link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css integrity=sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh crossorigin=anonymous>
+</head>
+
+<div id=particles-js class=justify-content-center></div>
+
+<body>
+
+<div class="modal fade bd-example-modal-lg" id=projectModal tabindex=-1 role=dialog aria-labelledby=myLargeModalLabel aria-hidden=true>
+<div class="modal-dialog modal-lg">
+<div class=modal-content>
+<div class=modal-header>
+<h5 class=modal-title id=projectName>Modal title</h5>
+<button type=button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&times;</span>
+</button>
+</div>
+<div class=modal-body>
+<img id=projectImage>
+<strong>Category : </strong> <span id=projectCategory></span> <br>
+<strong>Date Published : </strong> <span id=projectDate></span>
+<h5 class=mt-4><strong>Description</strong></h5>
+<p id=projectDescription></p>
+<p id=projectMade></p>
+<p>You can view the project<a target="_blank" id=projectLink> here </a>.</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class=wrapper>
+<h1>Salaheddine Oulad Ben Taib</h1>
+<div class=inner>
+<h2  style="font-weight:500" class=type-text></h2>
+<h2 class=cursor>|</h2>
+</div>
+<div class=scroll-bottom>
+<a href=#about class="my-auto down"><img src=Assets/blackArrow.png class=svg style=height:30px></a>
+</div>
+</div>
+
+<nav class="navbar sticky-top navbar-expand-lg navbar-light justify-content-center" id=nav>
+<div class=navbar-nav>
+<a class="nav-item nav-link active" href=#about>About Me</a>
+<a class="nav-item nav-link active" href=#Porojects>Porojects</a>
+<a class="nav-item nav-link active" href=#contact>Contact Me</a>
+</div>
+</nav>
+
+<div class=flex>
+<div class="container about" id=about>
+<h3 class=text-center>ABOUT ME
+<hr class=my-4>
+</h3>
+<div class="row mt-4">
+<div class="col-lg-4 col-12">
+<div class="col-12 image">
+<img style="box-shadow:.1rem .1rem .3rem .3rem rgba(0,0,1,.7);width:20rem;height:15rem;margin-top:1rem;margin-bottom:2rem;" src="Assets/salah.png" class="text-center">
+<a class="btn " style="margin-left:.5rem,background-color:#314259;" download="" target="_blank" href="Assets/Salah Eddine Ouald Ben Taib.pdf">Download Resume</a>
+</div>
+</div>
+<div class="col-lg-8 col-12 intro">
+<h4 style="padding-left:1.3rem">Hey There,</h4>
+<p style="padding-left:1.3rem">
+I am Salaheddine Oulad Ben Taib from Tangier, Morocco.I am a technical specialiste in Computer Science from OFPPT ISMONTIC OF Tangier , Institute of Cumputer Science & Technology. 
+<br>I am a Front-end and Back-end web developer who develops webpages & websites. I try to make websites look good, with minimal designs using a best and technical technology,develops with HTML & CSS & JavaScript & JQuery & Bootstrap ...<br>
+i can develope for you if you want a mobile application using java language for Back-end and XML for design and front-end, or make a desktop application using c# language .
+</p>
+</div>
+</div>
+</div>
+<div class="container portfolio" id=Porojects>
+<div class=inner-wrap>
+<h3 class=text-center>PROJECTS
+<hr class=my-4>
+</h3>
+<div class="row flex-container mt-2">
+<div class=col-12 class=project-container style=width:fit-content>
+<div class=row>
+<div class="col-lg-6 col-md-12 col-12 mt-2">
+<div class=wrap-project>
+<img style="box-shadow:.1rem .1rem .3rem .3rem rgba(0,0,1,.7);" class="project" src="Assets/img1.png">
+<div class=overlay>
+<button onclick='genDesc("first")'>
+View More
+</button>
+</div>
+</div>
+<h5 class="text-center mt-2">My Portfolio Official Website</h5>
+</div>
+<div class="col-lg-6 col-md-12 col-12 mt-2">
+<div class=wrap-project>
+<img style="box-shadow:.1rem .1rem .3rem .3rem rgba(0,0,1,.7);" class="project" src="Assets/img2.png">
+<div class=overlay>
+<button onclick='genDesc("second")'>
+View More
+</button>
+</div>
+</div>
+<h5 class="text-center mt-2">Digital fix & repaire</h5>
+</div>
+<div class="col-lg-6 col-md-12 col-12 mt-4">
+<div class=wrap-project>
+<img style="box-shadow:.1rem .1rem .3rem .3rem rgba(0,0,1,.7);" class="project" src="Assets/img3.png">
+<div class=overlay>
+<button onclick='genDesc("third")'>
+View More
+</button>
+</div>
+</div>
+<h5 class="text-center mt-2">My Blog Personal & professional</h5>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="contact container my-5" id=contact>
+<h3 class=text-center>Contact Me
+<hr class=my-4>
+</h3>
+<div class=inner-wrap>
+<div class=text-center>
+<h4>FOUND MY WORK INTERESTING ?</h4>
+<h6>Would love to hear from you.</h6>
+<a class="btn btn-dark" href=mailto:sdine6480@gmail.com>Get in touch</a>
+<div class=social>
+<a href="https://web.facebook.com/profile.php?id=100039780558863"><i class="fab fa-facebook fa-2x"></i></a>
+<a href="https://www.instagram.com/_salaheddine01/"><i class="fab fa-instagram fa-2x"></i></a>
+<a href="https://twitter.com/sgenius_01"><i class="fab fa-twitter fa-2x"></i></a>
+<a href="https://www.linkedin.com/in/salaheddine-oulad-ben-taib-1a4a69201/" ><i class="fab fa-linkedin fa-2x"></i></a>
+<a href="https://github.com/Sgenius01"><i class="fab fa-github fa-2x"></i></a>
+</div>
+</div>
+</div>
+</div>
+<footer class=text-center>
+<div class=col-12>
+Made with Love by <a class="b" style="font-size:1.1rem;" href="">salaheddine oulad ben taib .</a>
+</div>
+<div class=col-12>
+Copyright © 2021.
+</div>
+</footer>
+<script>window.onload=function(){function e(e){return e.stopPropagation?e.stopPropagation():window.event&&(window.event.cancelBubble=!0),e.preventDefault(),!1}document.addEventListener("contextmenu",function(e){e.preventDefault()},!1),document.addEventListener("keydown",function(t){t.ctrlKey&&t.shiftKey&&73==t.keyCode&&e(t),t.ctrlKey&&t.shiftKey&&74==t.keyCode&&e(t),83==t.keyCode&&(navigator.platform.match("Mac")?t.metaKey:t.ctrlKey)&&e(t),t.ctrlKey&&85==t.keyCode&&e(t),123==event.keyCode&&e(t)},!1)}</script>
+<script src=https://code.jquery.com/jquery-3.4.1.slim.min.js integrity=sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js integrity=sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js integrity=sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 crossorigin=anonymous></script>
+<script src=js/particles.js></script>
+<script src=js/app.js></script>
+<script src=js/type.js></script>
+</body>
+</html>

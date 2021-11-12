@@ -1,0 +1,100 @@
+*{
+	transition:all .5s linear;
+	text-transform:capitalize;
+}
+
+a,body,html{margin:0;padding:0;z-index:1;}
+#particles-js{height:100vh;background-color:#fff;
+color:#fff;
+z-index:-999}
+h4.type-text{
+	font-size:30px;
+	
+}
+.wrapper{color:#222;display:flex;flex-direction:column;height:100vh;margin-top:-100vh;justify-content:center;align-items:center;padding:1.5rem;}
+.wrapper h1{font-family:Jost,sans-serif;font-size:8vh;
+	padding:1rem;}
+.wrapper h4{font-family:Montserrat,sans-serif;font-size:3vh;
+	padding:1rem;}
+.inner{display:flex}
+.cursor{animation:blink .2s infinite}@keyframes blink{0%{opacity:1}100%{opacity:.1}}
+.scroll-bottom{display:flex;align-items:center;justify-content:center;margin-top:1rem;}
+.down{color:#00f;z-index:10;cursor:pointer;animation:move 2s infinite;margin-top:0px}
+.scroll-bottom:hover{
+	margin-top:2rem;
+}
+@keyframes move{0%{margin-top:-50px}100%{margin-top:-35px}}
+.navbar{height:11vh;overflow:hidden;width:100%;background-color:#f7f7f7}
+.navbar-nav{display:flex!important;flex-direction:row!important;align-items:center;justify-content:center}
+.navbar-collapse{margin-right:5%}
+.nav-item{padding:15px!important;font-size:1.2rem;color:#222;background-color:#f7f7f7!important;font-style:Jost,sans-serif!important}
+footer{background-color:#222;z-index:+10;color:#f7f7f7;height:fit-content;padding:2.5%;display:flex;flex-direction:column;align-items:center;justify-content:center}footer a{background-color:#222}
+.about{height:fit-content;padding-top:5rem;padding-bottom:2rem;}
+.about h4{font-family:Jost,sans-serif;color:#222;font-size:1.75rem;padding:.5rem}
+.about p{font-style:Jost,sans-serif;color:#222;font-size:3vh;line-height:3vh;letter-spacing:.1rem;
+padding:.5rem;}
+.about .dp{height:30vh;width:30vh;border:2px solid #222;padding:1px}
+.about .intro{margin-top:2%;
+padding:2rem;
+}
+
+.image{display:flex;flex-direction:column;align-items:center;justify-content:center}
+.image .btn{margin:1.5%}
+.certifications{display:flex!important;flex-direction:column;align-items:center!important;justify-content:center!important}
+.carousel-item img{height:35vh!important}
+.wrap{margin-top:3%;font-family:Montserrat,sans-serif;display:flex!important;flex-direction:column;align-items:center!important;justify-content:center!important;color:#222}
+.wrap p{margin-top:2%;font-size:2vh}
+@media screen and (max-width:576px){.w-75{width:60%!important}
+.nav-item{font-size:.8rem!important;transition:.3s linear;}}
+.nav-item:hover{
+	color:#038BC7!important;
+}
+.btn{
+	background-color:#314259!important;border-color:#314259;color:#fff!important;margin-top:1%;font-size:1.3rem!important;transition:.6s linear!important;
+	margin-bottom:2rem;
+font-weight:500;}
+.btn:hover{
+	background-color:#0EB2BA!important;
+}
+.social{margin:2%}
+.fab{color:#222;margin:0 1%}
+.fab:hover{
+	color:#038BC7!important;
+
+}
+.inner-wrap{padding-top:5vh}
+.project{height:250px;width:420px;padding:1%;border:2px solid #222;z-index:99}
+.overlay{height:250px;width:420px;background-color:rgba(0,0,0,.6);display:flex;justify-content:center;align-items:center,position:absolute;margin-top:-250px;opacity:0;z-index:-1000;}
+.wrap-project{display:flex;flex-direction:column;justify-content:center;align-items:center;position:relative;padding:10px;}
+.wrap-project:hover .overlay{opacity:1;transition-duration:.6s linear;z-index:1000;}
+.overlay button{padding:8px;border-radius:2px;background-color:#02457A;color:#fff;height:50px;margin:auto;transition:all .6s linear;}
+button:focus{border-color:#f7f7f7}
+button :active{border-color:#f7f7f7}
+.overlay button:hover{
+	background:#10555F;
+	color:#fff;
+}
+.portfolio .col-md-8 .row{margin-top:2%}
+.flex{display:flex;flex-direction:column;justify-content:center;align-items:center; padding-top:3rem;}
+.project .col-12 .col-lg-4{margin-top:5%!important}
+#projectImage{width:100%;margin:2% 0;padding:5px;box-shadow:0 3px 5px 0 rgba(0,0,0,.4),0 6px 20px 0 rgba(0,0,0,.29)}
+.modal-body{background-color:#f7f7f7!important}
+.modal-header{background-color:#f7f7f7}
+.modal h5,strong{font-family:Montserrat,sans-serif}
+.portfolio h5{font-family:Montserrat,sans-serif;}
+.portfolio{
+	padding-bottom:5rem;
+}
+.b{
+	color:#eee;
+	text-decoration:none!important;
+}
+
+
+
+@media all and(max-width:400px){
+	.project{height:1980px;width:250px;}
+	
+}
+
+
